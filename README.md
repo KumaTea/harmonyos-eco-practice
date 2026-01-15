@@ -31,3 +31,15 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
   * https://krdesigns.com/articles/how-to-install-guacamole-using-docker-step-by-step
   * https://guacamole.apache.org/doc/gug/guacamole-docker.html
   * https://windgate.net/connect-your-lab-remotely-with-guacamole-rdp-to-windows-linux/
+
+## 文稿处理 Documents Processing
+
+* 目标 Targets
+  * Microsoft Office
+* **替代 Replacements**
+  * **WPS Office**
+    * 类型：原生
+    * 开源：否
+    * 免费：大部分功能
+* 评价 Reviews
+  * 效果：基本替代
