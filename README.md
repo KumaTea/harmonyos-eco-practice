@@ -43,3 +43,22 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
     * 免费：大部分功能
 * 评价 Reviews
   * 效果：基本替代
+
+## 其他 Others
+
+这里列出一些其他替代项目。这些项目并不止替代鸿蒙生态这一目的，而是它们本身有更多、更合适的适用场景 (例如 clientless)。这些方案很多都要求一台服务器。
+
+### 编程 Programming
+
+* 通用
+  * 目标：VS Code
+    * [VS Code Web](https://vscode.dev)
+    * [Code Server](https://github.com/coder/code-server)
+
+* Python
+  * 目标：PyCharm
+    * [JupyterLab](https://jupyter.org)
+
+* R
+  * 目标：RStudio
+    * [RStudio Server](https://posit.co/products/open-source/rstudio-server)
