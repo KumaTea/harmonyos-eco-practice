@@ -10,11 +10,13 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
 
 由于该系统发布时间较短，生态系统较不完善，尤其缺乏海外企业开发的应用。虽然提供了安卓容器化环境[卓易通](https://www.droitong.com/)，但使用体验上仍一般。
 
-本项目通过本人的使用经验，提供替代常用使用场景的最佳实践。针对的使用场景主要为桌面，对应的设备包括鸿蒙电脑 (MateBook) 和平板 (MatePad) 的多窗口模式。部分替代方案要求您有一台服务器。
+本项目通过本人的使用经验，提供替代常用使用场景的最佳实践。针对的使用场景主要为桌面，对应的设备包括鸿蒙电脑 (MateBook) 和平板 (MatePad) 的多窗口模式。部分替代方案需要有一台服务器。
 
 ---
 
 ## 远程连接 Remote Connection
+
+![Apache Guacamole](assets/guacamole.webp)
 
 * 目标 Targets
   * Microsoft Remote Desktop
@@ -32,17 +34,38 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
   * https://guacamole.apache.org/doc/gug/guacamole-docker.html
   * https://windgate.net/connect-your-lab-remotely-with-guacamole-rdp-to-windows-linux/
 
+
+## 网页浏览 Web Browsing
+
+![海泰浏览器](assets/ht.webp)
+
+* 目标 Targets
+  * Google Chrome
+* **替代 Replacements**
+  * [**海泰浏览器**](https://appgallery.huawei.com/app/detail?id=com.haitai.htbrowser)
+    * 类型：原生
+    * 开源：否
+    * 免费：是
+* 评价 Reviews
+  * 效果：基本替代
+* 参考 References
+  * https://zhuanlan.zhihu.com/p/1945613830722912366
+
+基于 Chromium 的浏览器，去除谷歌服务，加入部分信创功能。[目前鸿蒙平台唯一桌面浏览器](https://www.haitaichina.com/hlhhmgmllqglhhmgmllq/index.htm)，支持插件等绝大多数 Chrome 支持的功能，桌面使用体验极佳，基本是官方或第三方 Chrome / Chromium 浏览器推出之前的唯一选择。当然，对于密码填充等敏感使用场景，仍建议使用官方浏览器或于其他平台完成。
+
+
 ## 文稿处理 Documents Processing
 
 * 目标 Targets
   * Microsoft Office
 * **替代 Replacements**
-  * **WPS Office**
+  * [**WPS Office**](https://appgallery.huawei.com/app/detail?id=cn.wps.office.hap)
     * 类型：原生
     * 开源：否
     * 免费：大部分功能
 * 评价 Reviews
   * 效果：基本替代
+
 
 ## 其他 Others
 
@@ -54,11 +77,9 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
   * 目标：VS Code
     * [VS Code Web](https://vscode.dev)
     * [Code Server](https://github.com/coder/code-server)
-
 * Python
   * 目标：PyCharm
     * [JupyterLab](https://jupyter.org)
-
 * R
   * 目标：RStudio
     * [RStudio Server](https://posit.co/products/open-source/rstudio-server)
