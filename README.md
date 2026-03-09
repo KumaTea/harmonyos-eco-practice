@@ -16,6 +16,8 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
 
 ## 远程连接 Remote Connection
 
+### Apache Guacamole
+
 ![Apache Guacamole](assets/guacamole.webp)
 
 * 目标 Targets
@@ -34,6 +36,22 @@ Best Practice for Replacement of the Ecosystem of Huawei HarmonyOS NEXT
   * https://guacamole.apache.org/doc/gug/guacamole-docker.html
   * https://windgate.net/connect-your-lab-remotely-with-guacamole-rdp-to-windows-linux/
 
+### Moonlight
+
+* 目标 Targets
+  * Microsoft Remote Desktop
+* **替代 Replacements**
+  * **[Moonlight](https://moonlight-stream.org)** **[App](https://appgallery.huawei.com/app/detail?id=com.xiaobai.moonlight)** [Source](https://github.com/likuai2010/moonlight-harmonyos)
+    * 类型：原生
+    * 开源：部分 (上架华为商店后版本更新未开源)
+    * 免费：是
+* 评价 Reviews
+  * 效果：完全替代
+  * 操作难度：简单
+
+与 Windows 原生支持的RDP协议不同，Moonlight 类似于 TeamViewer 等第三方远程控制软件，在连接时物理机不会显示锁屏见面，而是直接同步远程操作。这有其优点（例如，不使用虚拟显示器，可方便修改分辨率，可支持睡眠等）和缺点（显示操作，在宿舍等公共环境有隐私顾虑）。Moonlight 专为游戏串流设计，在连接效果上介于微软远程桌面 (好) 和第三方远程桌面软件 (一般) 之间。
+
+为了使用 Moonlight，需要先在 Windows 上安装 [Sunshine](https://github.com/LizardByte/Sunshine/releases/latest) 等服务端软件。连接前在被控端授权后即可控制，部分软件和游戏会自动识别 (如 Steam)，也可以单独添加App，但与直接控制无明显区别。
 
 ## 网页浏览 Web Browsing
 
